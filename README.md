@@ -7,13 +7,13 @@ Attractions is a alexa skill made for knowing about any point of interest in the
 1. Provides the top points of interest/attractions by the city(You can ask Alexa : "Alexa ask Attractions to find the best places in New York to visit." and then Alexa would reply something like : "")
 2. Provides the brief information about the Point of Interest with telephone number and its address. It also includes text summarization of the user reviews about the Point of interest to give a crisp and valuable place guide.
 3. Automatically plans a trip based on the best places in the city that can be covered in a single day. The algorithm finds the order of places to travel. It is calculated using the variation of Travelling Salesman Problem. It considers following factors while finding the best optimized route while following user creiterias/restrictions:-
-	i. time at which users wants to start the trip/end the trip.
-	ii.  day on which users wants to do the trip.
-	iii. maximum place of interests covered in the given bound of time.
-	iv. time at which places are opened and closed.
-	v. rating of the places
-	vi. a careful consideration has been given to balance between the rating of the place of interest and the feasibility to cover the place of interest.
-	vii. currently, we take the 5 best places of interest in the 
+	* time at which users wants to start the trip/end the trip.
+	* day on which users wants to do the trip.
+	* maximum place of interests covered in the given bound of time.
+	* time at which places are opened and closed.
+	* rating of the places
+	* a careful consideration has been given to balance between the rating of the place of interest and the feasibility to cover the place of interest.
+	* currently, we take the 5 best places of interest in the 
 	So, this algorithm is doing much more than the distance and time optimization which is normally done by most trip planner.
 We have used google places api for multiple purposes in the alexa skill :-
 1. Get the list of best places by city.
