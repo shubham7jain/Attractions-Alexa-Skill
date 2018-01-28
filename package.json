@@ -1,0 +1,10 @@
+{
+  "name": "alexa-skill-kit-sdk-factskill",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@google/maps": "^0.4.5",
+    "alexa-sdk": "^1.0.10",
+    "sum": "^0.1.4"
+  }
+}
